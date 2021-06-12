@@ -2,26 +2,26 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Fede A. | Developer', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Welcome to my website', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Hello',
+  name: 'I am Federico',
+  subtitle: 'Senior Developer',
+  cta: 'know more',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: 'Specializing in react and web apps. with over 3+ years of professional experience',
+  paragraphTwo: 'Looking to exercise my skills and learn by facing new challenges.',
+  paragraphThree: 'I have been working with international companies on several projects ',
+  resume: 'resume.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -29,7 +29,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
+    title: 'RoboFriend',
     info: '',
     info2: '',
     url: '',
