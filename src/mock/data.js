@@ -21,7 +21,8 @@ export const aboutData = {
   paragraphOne: 'Specializing in react and web apps. with over 3+ years of professional experience',
   paragraphTwo: 'Looking to exercise my skills and learn by facing new challenges.',
   paragraphThree: 'I have been working with international companies on several projects ',
-  resume: 'resume.pdf', // if no resume, the button will not show up
+  resume:
+    'https://docs.google.com/document/d/e/2PACX-1vSnqiI9ocDHFipLmoIsn5zF3iQ2RAAh5diBUrFkq3bJBC7BYFXgNAhwmcxUK-fTGw/pub', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
