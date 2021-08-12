@@ -30,7 +30,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'far.png',
     title: 'FaceRecognition',
-    info: 'Insert an image URL and the API will reconize faces in the image',
+    info: 'Insert an image URL and the API will recognize faces in the image',
     info2: 'React.js|Node.js|PSQL',
     url: 'https://smartfar.herokuapp.com/',
     repo: 'https://github.com/FedericoAcostaDev/FaceAppRecognition', // if no repo, the button will not show up
