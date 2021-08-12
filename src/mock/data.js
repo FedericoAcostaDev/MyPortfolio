@@ -11,46 +11,36 @@ export const headData = {
 export const heroData = {
   title: 'Hello',
   name: 'I am Federico',
-  subtitle: 'Senior Developer',
+  subtitle: 'Web Developer',
   cta: 'know more',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'Specializing in react and web apps. with over 3+ years of professional experience',
-  paragraphTwo: 'Looking to exercise my skills and learn by facing new challenges.',
-  paragraphThree: 'I have been working with international companies on several projects ',
-  resume:
-    'https://docs.google.com/document/d/e/2PACX-1vSnqiI9ocDHFipLmoIsn5zF3iQ2RAAh5diBUrFkq3bJBC7BYFXgNAhwmcxUK-fTGw/pub', // if no resume, the button will not show up
+  paragraphOne: "I'm a web developer with an art & desing background.",
+  paragraphTwo: 'In other words, an Architect turned into a programer.',
+  paragraphThree: 'Especialized in front-end React.js | React Native ',
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'far.png',
+    title: 'FaceRecognition',
+    info: 'Insert an image URL and the API will reconize faces in the image',
+    info2: 'React.js|Node.js|PSQL',
+    url: 'https://smartfar.herokuapp.com/',
+    repo: 'https://github.com/FedericoAcostaDev/FaceAppRecognition', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'project.jpg',
     title: 'RoboFriend',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    info: 'A search engine to find your BRF (Best RoboFriend)',
+    info2: 'React.js|Node.js',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
@@ -60,22 +50,12 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'fedeacos045@gmail.com',
 };
 
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
     {
       id: nanoid(),
       name: 'linkedin',
