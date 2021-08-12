@@ -41,8 +41,8 @@ export const projectsData = [
     title: 'RoboFriend',
     info: 'A search engine to find your BRF (Best RoboFriend)',
     info2: 'React.js|Node.js',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://robofa.herokuapp.com/',
+    repo: 'https://github.com/FedericoAcostaDev/RoboFriends', // if no repo, the button will not show up
   },
 ];
 
