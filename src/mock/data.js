@@ -18,7 +18,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: "I'm a web developer with an art & desing background.",
+  paragraphOne: "I'm a web developer with an art & design background.",
   paragraphTwo: 'In other words, an Architect turned into a programer.',
   paragraphThree: 'Especialized in front-end React.js | React Native ',
   resume: '', // if no resume, the button will not show up
