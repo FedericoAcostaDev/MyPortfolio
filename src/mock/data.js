@@ -37,6 +37,15 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'MOM.jpg',
+    title: 'Mix-Or-Match',
+    info: 'A matching game',
+    info2: 'HTML|CSS|JavaScript',
+    url: 'https://boring-northcutt-06aca7.netlify.app/',
+    repo: 'https://github.com/FedericoAcostaDev/MATCHINGGAME', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'project.jpg',
     title: 'RoboFriend',
     info: 'A search engine to find your BRF (Best RoboFriend)',
