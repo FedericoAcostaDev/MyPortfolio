@@ -20,7 +20,7 @@ export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: "I'm a web developer with an art & design background.",
   paragraphTwo: 'In other words, an Architect turned into a programmer.',
-  paragraphThree: 'Specialized in front-end React.js | React Native ',
+  paragraphThree: 'Specialized in Full-Stack React.js | Node.js ',
   resume: '', // if no resume, the button will not show up
 };
 
@@ -68,12 +68,12 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/fede-acosta-b11a22211/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/FedericoAcostaDev',
     },
   ],
 };
