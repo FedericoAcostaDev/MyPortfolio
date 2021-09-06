@@ -28,10 +28,19 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'project.jpg',
+    title: 'E-market',
+    info: 'available soon',
+    info2: 'React.js|Node.js|Rest API|Stripe',
+    url: '',
+    repo: 'https://github.com/FedericoAcostaDev/e-market', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'far.png',
     title: 'FaceRecognition',
     info: 'Insert an image URL and the API will recognize faces in the image',
-    info2: 'React.js|Node.js|PSQL',
+    info2: 'React.js|Rest API|Node.js|PSQL',
     url: 'https://smartfar.herokuapp.com/',
     repo: 'https://github.com/FedericoAcostaDev/FaceAppRecognition', // if no repo, the button will not show up
   },
