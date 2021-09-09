@@ -30,9 +30,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'project.jpg',
     title: 'E-market',
-    info: 'available soon',
-    info2: 'React.js|Node.js|Rest API|Stripe',
-    url: '',
+    info: 'In Beta',
+    info2: 'React.js|Node.js|Rest API|React-Hooks',
+    url: 'https://dazzling-jones-1f1868.netlify.app/',
     repo: 'https://github.com/FedericoAcostaDev/e-market', // if no repo, the button will not show up
   },
   {
