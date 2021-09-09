@@ -28,9 +28,9 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'E-MARKET.png',
     title: 'E-market',
-    info: 'In Beta',
+    info: 'In Beta, site in working',
     info2: 'React.js|Node.js|Rest API|React-Hooks',
     url: 'https://dazzling-jones-1f1868.netlify.app/',
     repo: 'https://github.com/FedericoAcostaDev/e-market', // if no repo, the button will not show up
